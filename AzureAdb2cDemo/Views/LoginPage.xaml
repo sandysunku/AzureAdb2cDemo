@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzureAdb2cDemo.Views.LoginPage" Title="Login"
+             xmlns:prism="http://prismlibrary.com" prism:ViewModelLocator.AutowireViewModel="True">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Azure AD authentication demo!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button WidthRequest="250" HeightRequest="60" Margin="0,40,0,0" Text="Login" HorizontalOptions="Center" Command="{Binding LoginCommand}" />
+    </StackLayout>
+</ContentPage>
